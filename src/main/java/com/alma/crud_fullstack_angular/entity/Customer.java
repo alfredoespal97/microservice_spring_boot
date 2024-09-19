@@ -2,6 +2,8 @@ package com.alma.crud_fullstack_angular.entity;
 
 import jakarta.persistence.*;
 
+import java.util.List;
+
 @Entity
 @Table(name = "customers")
 public class Customer {
@@ -12,6 +14,8 @@ public class Customer {
     private String lastName;
     @Column(unique = true, nullable = false)
     private String email;
+    @OneToMany(mappedBy = "customer", cascade = CascadeType.ALL)
+    private List<Order> orders;
 
     public Customer() {
     }
