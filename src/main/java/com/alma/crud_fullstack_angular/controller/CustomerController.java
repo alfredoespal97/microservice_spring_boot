@@ -1,7 +1,7 @@
 package com.alma.crud_fullstack_angular.controller;
 
 import com.alma.crud_fullstack_angular.entity.Customer;
-import com.alma.crud_fullstack_angular.service.CustomerService;
+import com.alma.crud_fullstack_angular.service.customer.CustomerService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

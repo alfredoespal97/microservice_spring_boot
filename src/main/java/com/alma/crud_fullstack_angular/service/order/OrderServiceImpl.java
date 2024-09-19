@@ -1,10 +1,9 @@
-package com.alma.crud_fullstack_angular.service;
+package com.alma.crud_fullstack_angular.service.order;
 
 import com.alma.crud_fullstack_angular.entity.Order;
 import com.alma.crud_fullstack_angular.repository.OrderRepository;
 import org.springframework.stereotype.Service;
 
-import java.util.Collections;
 import java.util.List;
 
 @Service

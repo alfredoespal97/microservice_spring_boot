@@ -2,7 +2,7 @@ package com.alma.crud_fullstack_angular.controller;
 
 
 import com.alma.crud_fullstack_angular.entity.Order;
-import com.alma.crud_fullstack_angular.service.OrderService;
+import com.alma.crud_fullstack_angular.service.order.OrderService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

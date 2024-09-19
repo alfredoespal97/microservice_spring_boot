@@ -1,4 +1,4 @@
-package com.alma.crud_fullstack_angular.service;
+package com.alma.crud_fullstack_angular.service.customer;
 
 import com.alma.crud_fullstack_angular.entity.Customer;
 
