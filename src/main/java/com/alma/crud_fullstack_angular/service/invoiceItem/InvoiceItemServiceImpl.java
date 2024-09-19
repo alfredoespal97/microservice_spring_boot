@@ -12,7 +12,6 @@ public class InvoiceItemServiceImpl implements InvoiceItemService{
 
     public InvoiceItemServiceImpl(InvoiceItemRepository invoiceItemRepository){
         this.invoiceItemRepository = invoiceItemRepository;
-
     }
 
     @Override
